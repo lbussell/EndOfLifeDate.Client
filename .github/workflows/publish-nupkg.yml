@@ -43,7 +43,8 @@ jobs:
           --configuration Release \
           --no-build \
           --output ./nupkg \
-          -p:VersionSuffix=$(date +%Y%m%d%H%M) \
+          -p:ContinuousIntegrationBuild=true \
+          -p:VersionSuffix=$(date +%Y%m%d%H%M)
 
     - name: Authenticate to GH Packages
       run: |
