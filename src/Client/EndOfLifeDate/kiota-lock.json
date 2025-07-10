@@ -1,0 +1,24 @@
+{
+  "descriptionHash": "1A59BC77C9B72D4984E7598D1A473F67D41A1D337E93C20F11327ED599F16977F4301220E064577F053E4D2A85D2F9617AAC8AC1483B7DDA9A138B92DD979010",
+  "descriptionLocation": "https://endoflife.date/docs/api/v1/openapi.yml",
+  "lockFileVersion": "1.0.0",
+  "kiotaVersion": "1.27.0",
+  "clientClassName": "EndOfLifeDateClient",
+  "typeAccessModifier": "Public",
+  "clientNamespaceName": "EndOfLifeDate.Client",
+  "language": "CSharp",
+  "usesBackingStore": false,
+  "excludeBackwardCompatible": true,
+  "includeAdditionalData": false,
+  "disableSSLValidation": false,
+  "serializers": [],
+  "deserializers": [
+    "Microsoft.Kiota.Serialization.Json.JsonParseNodeFactory"
+  ],
+  "structuredMimeTypes": [
+    "application/json"
+  ],
+  "includePatterns": [],
+  "excludePatterns": [],
+  "disabledValidationRules": []
+}

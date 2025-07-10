@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net8.0</TargetFrameworks>
+    <LangVersion>12.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <IsAotCompatible Condition="$([MSBuild]::IsTargetFrameworkCompatible('$(TargetFramework)', 'net8.0'))">true</IsAotCompatible>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <KiotaVersion>1.19.0</KiotaVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Kiota.Abstractions" Version="$(KiotaVersion)" />
+    <PackageReference Include="Microsoft.Kiota.Http.HttpClientLibrary" Version="$(KiotaVersion)" />
+    <PackageReference Include="Microsoft.Kiota.Serialization.Json" Version="$(KiotaVersion)" />
+  </ItemGroup>
+
+</Project>
