@@ -8,7 +8,7 @@
 
      <!-- Package Metadata -->
     <PackageId>EndOfLifeDate.Client</PackageId>
-    <Version>0.0.1-beta</Version>
+    <VersionPrefix>0.0.1</VersionPrefix>
     <Authors>Logan Bussell</Authors>
     <Description>.NET client library for https://endoflife.date API</Description>
     <PackageProjectUrl>https://github.com/lbussell/EndOfLifeDate.Client</PackageProjectUrl>
