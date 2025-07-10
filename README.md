@@ -1,1 +1,1 @@
-# EndOfLife.Date.Client
+# EndOfLifeDate.Client

@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EndOfLifeDate.Client", "src\Client\EndOfLifeDate.Client.csproj", "{504D6A68-B6DA-421F-A2E2-1C36C7827D45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EndOfLifeDate.Samples", "src\Samples\EndOfLifeDate.Samples.csproj", "{F18282D6-9839-4C19-8FBA-B8F443D246B2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EndOfLifeDate.Example", "src\Example\EndOfLifeDate.Example.csproj", "{F18282D6-9839-4C19-8FBA-B8F443D246B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
